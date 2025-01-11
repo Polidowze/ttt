@@ -1,0 +1,145 @@
+/* Pagina Index */
+.Titulo{
+    margin-top:0;
+    text-align: center;
+    border: solid 5px rgb(137, 70, 224);
+    height: 70px;
+background-color: rgb(163, 163, 223);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+color: white;
+width: 99.25%;
+text-shadow: black 0px 3px;
+}
+
+body{
+    margin:0;
+
+}
+
+.horizontal{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 3%;
+
+}
+
+.img{
+    width: 100%;
+    background: url(img_impresa/logo_do_tcc-removebg-preview.png) no-repeat;
+    background-size: 200px;
+    height: 200px;
+    background-position: 50%;
+}
+
+.sobre{
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.botaom{  
+    margin-left: 5%;
+    width: 29%;
+    height: 400px;
+}
+
+.borda{
+    border: solid 1px black; 
+    width: 100%;
+    margin-top: -10%;
+    background-color: #E6E6E6;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.entrar{
+    border: solid 1px black;
+    background-color: #E6E6E6;
+    z-index: 99;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+}
+
+.cpf{
+    width: 60%;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: start;
+font-size: x-large;
+}
+
+.cpfborda{
+    width: 60%;
+    height: 7%;
+}
+
+.senha{
+    width: 60%;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: start;
+font-size: x-large;
+}
+
+.senha1{
+    width: 60%;
+    height: 7%;
+}
+
+.botaom1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18%;
+    height: 8% ;
+    background-color: #33ee8a;
+    border: none;
+}
+
+.botaom2{
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 20%;
+    
+}
+
+.botaom3{
+    margin-bottom: 5%;
+}
+
+.cds{
+    width: 50%;
+    height: 65%;
+    margin-left: 12.5%;
+}
+
+.cds1{
+    width: 75%;
+    height: 65%;
+    background-color: #33ee8a;
+    border: none;
+}
+
+/* pagina cadastro */
+
+
+/* Pagna Rolagem */
+
+
+/* Pagna usuarios */
+
+
+/* Pagna add */
