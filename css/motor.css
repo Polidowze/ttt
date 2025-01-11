@@ -31,12 +31,11 @@ body{
     align-items: center;
     width: 50%;
     margin-left: 3%;
-
 }
 
 .img{
     width: 100%;
-    background: url(img_impresa/logo_do_tcc-removebg-preview.png) no-repeat;
+    background: url(../img_impresa/logo_do_tcc-removebg-preview.png) no-repeat;
     background-size: 200px;
     height: 200px;
     background-position: 50%;
@@ -101,11 +100,16 @@ font-size: x-large;
 }
 
 .botaom1{
+    transition: all 0.5s;
     font-family: Arial, Helvetica, sans-serif;
     width: 18%;
     height: 8% ;
     background-color: #33ee8a;
     border: none;
+}
+
+.botaom1:hover{
+    transform: scale(1.2,1.2);
 }
 
 .botaom2{
@@ -127,19 +131,13 @@ font-size: x-large;
 }
 
 .cds1{
+    transition: all 0.5s;
     width: 75%;
     height: 65%;
     background-color: #33ee8a;
     border: none;
 }
 
-/* pagina cadastro */
-
-
-/* Pagna Rolagem */
-
-
-/* Pagna usuarios */
-
-
-/* Pagna add */
+.cds1:hover{
+    transform: scale(1.2,1.2);
+}
